@@ -1,3 +1,6 @@
+# Outdated - 13.04.2021
+Managed to use Tensorflow pre-fetch mechanism to lazy load files in batches. 
+
 # Multi CPU image processing
 I want to write high performance image loader. For now I'm stack at 250 images/s
 
@@ -17,4 +20,4 @@ Tu run you can use image_processing notebook or `main.py`
 ![Images per second](images/ips.png)
 
 # Questions
-I defenitely don't know how to go further. Is there a way to read images streight to GPU? Use of another library to read image? Another way of multiprocessing files?
+I defenitely don't know how to go further. Is there a way to read images straight to GPU? Use of another library to read image? Another way of multiprocessing files?
